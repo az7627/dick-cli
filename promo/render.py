@@ -153,7 +153,7 @@ def heading(image: Image.Image, number: str, title: str, subtitle: str) -> None:
 def opening(image: Image.Image, t: float) -> None:
     mark(image, (960, 242), 300)
     text(image, (960, 487), "DICK CLI", 164, "title", WHITE, "center")
-    text(image, (960, 605), "Make text worse. Keep it recognizable.", 35, "mono", MINT, "center")
+    text(image, (960, 605), "Distorted Input Context Keeper.", 35, "mono", MINT, "center")
     text(image, (960, 722), CREDIT, 42, "cjk", WHITE, "center")
     text(image, (960, 804), "仓库地址：" + REPO, 36, "cjk", MUTED, "center")
     text(image, (960, 905), "正常文本，开始有一点精神状态。", 30, color=PURPLE, align="center")

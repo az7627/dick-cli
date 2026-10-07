@@ -12,7 +12,7 @@
 
 | 时间 | 内容 |
 | --- | --- |
-| 0–5.8 秒 | 软件 Logo、大字 DICK CLI、中等字号制作说明及仓库地址 |
+| 0–5.8 秒 | 软件 Logo、大字 DICK CLI、全称 Distorted Input Context Keeper、中等字号制作说明及仓库地址 |
 | 5.8–11.7 秒 | 真实终端输入 / 输出，强调原意保留与固定 seed |
 | 11.7–17.8 秒 | 四级强度的真实输出并排比较 |
 | 17.8–24.2 秒 | normal / leet / glitch / terminal / brainrot 五种风格 |
