@@ -38,3 +38,34 @@ Desktop.ini
 # Rendered video, music, previews and temporary media
 promo/output/
 promo/.cache/
+
+# Binary media, fonts and distributions belong in GitHub Releases, not Git
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.ico
+*.mp4
+*.mov
+*.webm
+*.mkv
+*.avi
+*.wav
+*.mp3
+*.aac
+*.flac
+*.ogg
+*.ttf
+*.otf
+*.ttc
+*.whl
+*.zip
+*.7z
+*.tar
+*.gz
+*.exe
+*.dll
+*.so
+*.dylib
+*.pyd

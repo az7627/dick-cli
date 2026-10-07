@@ -1,14 +1,29 @@
 # DICK
 
+<img src="https://github.com/az7627/dick-cli/releases/download/v0.1.0/logo.png" alt="DICK CLI logo" width="112">
+
 **Distorted Input Context Keeper.**
 
 Make your text worse. Keep it recognizable.
 
 把正常文本的精神状态搞坏一点，但保留原词、顺序和可辨识度。一个轻量的 CLI 娱乐工具：Python 标准库实现，运行时零依赖，不联网，不调用 AI，不需要配置文件。
 
+[GitHub 仓库](https://github.com/az7627/dick-cli) · [v0.1.0 下载](https://github.com/az7627/dick-cli/releases/tag/v0.1.0) · [观看宣传片](https://github.com/az7627/dick-cli/releases/download/v0.1.0/DICK_CLI_promo_1080p.mp4)
+
+[![DICK CLI 宣传片封面](https://github.com/az7627/dick-cli/releases/download/v0.1.0/DICK_CLI_poster.png)](https://github.com/az7627/dick-cli/releases/download/v0.1.0/DICK_CLI_promo_1080p.mp4)
+
+仓库仅保存源码与文本说明。Logo、封面、宣传片和安装包通过 GitHub Release 分发，不进入 Git 历史。
+
 ## 安装
 
-需要 Python 3.10 或更新版本。在项目目录执行：
+需要 Python 3.10 或更新版本。先获取源码：
+
+```sh
+git clone https://github.com/az7627/dick-cli.git
+cd dick-cli
+```
+
+然后在项目目录执行：
 
 ```sh
 python -m pip install .
@@ -128,5 +143,7 @@ python -m unittest discover -s tests -v
 ```
 
 测试使用标准库 `unittest`，覆盖 seed、所有等级和模式、原词保留、受保护内容、UTF-8 / Emoji、多行、stdin、plain、帮助和错误退出码。
+
+宣传片使用的真实终端演示、分镜和原创配乐生成脚本见 [promo/README.md](promo/README.md)。视频制作工具不属于 CLI 运行时依赖。
 
 MIT License.
