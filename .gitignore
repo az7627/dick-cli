@@ -1,0 +1,40 @@
+# Python environments and caches
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+
+# Packaging output
+*.egg-info/
+build/
+dist/
+
+# Test and coverage output
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Local secrets and credentials
+.env
+.env.*
+!.env.example
+.pypirc
+.netrc
+*.pem
+*.key
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Rendered video, music, previews and temporary media
+promo/output/
+promo/.cache/
